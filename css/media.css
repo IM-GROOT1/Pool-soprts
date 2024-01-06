@@ -500,3 +500,254 @@
         margin-bottom: 10px;
     }
 }
+@media (min-width:768px) and (max-width:991px){
+.toggle{
+        line-height: 60px;
+        display: block !important;
+    }
+    nav{
+        position: fixed;
+        left: 100%;
+        top: 60px;
+        width: 100%;
+        height: 50vh;
+        background-color: #ffffff;
+        opacity: 1;
+        transition: left 0.6s ease-in-out;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+    }
+    nav li a {
+        color: #000000;
+        padding: 0 15px;
+        font-size: 16px;
+    }
+    nav ul li {
+        display: inline;
+        line-height: 60px;
+    }
+    #header_banner{
+        width: 100%;
+        height: 60vh;
+    }
+    .header{
+        height: 60px;
+    }
+    .header_container{
+        width: 90%;
+    }
+    .logo {
+        font-size: 30px;
+        line-height: 60px;
+    }
+    .header_banner_wrap {
+        width: 500px;
+        padding-top: 0px;
+    }
+    .header_banner_wrap h2{
+        font-size: 40px;
+    }
+    .about-container{
+        width: 90%;
+        padding-bottom: 30px;
+    }
+    .about-box1{
+        width: 100%;
+        padding-bottom: 20px;
+        padding-top: 35px;
+    }
+    .about-box1 h3 {
+        font-size: 35px;
+    }
+    .about-box2{
+        width: 100%;
+        padding-top: 20px;
+    }
+    .about-box2 p{
+        font-size: 15px;
+        letter-spacing: 0px;
+    }
+    .pool-container{
+        width: 90%;
+        grid-template-columns: auto auto;
+        padding-bottom: 30px;
+        gap: 10px;
+    }
+    .pool-1 img, .pool-2 img, .pool-3 img {
+        width: 100%;
+    }
+    .pool-box1, .pool-box2, .pool-box3{
+        width: 100%;
+    }
+    .banner-2{
+        margin-top: 10px;
+        margin-bottom: 20px;
+        height: 60vh;
+    }
+    .banner-2-wrap{
+        font-size: 30px;
+        width: 480px;
+    }
+    .banner-2-button{
+        padding: 10px 10px;
+    }
+    #services h4{
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+    .services-container {
+        width: 90%;
+        grid-template-columns: auto auto;
+        padding-bottom: 30px;
+    }
+    .banner-3{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .banner-3-container{
+        width: 90%;
+        padding-top: 100px;
+    }
+    .Happy-Clients h5, .Experience h5, .Success h5, .Awards h5{
+        margin-bottom: 10px;
+    }
+    .Happy-Clients-box, .Experience-box, .Success-box, .Awards-box {
+        width: 115px;
+        height: 40px;
+    }
+    .Happy-Clients-box h4, .Experience-box h4, .Success-box h4, .Awards-box h4 {
+        font-size: 25px;
+    }
+    #Our-Pricing h3{
+        padding-top: 0px;
+        padding-bottom: 40px;
+        font-size: 30px;
+    }
+    .Our-Pricing-container{
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Standard-box, .Golden-box{
+        width: 50%;
+    }
+    .Premium-box, .Ultimate-box {
+        width: 50%;
+    }
+    .sign-up{
+        padding: 10px 60px;
+    }
+    .Some-Features{
+        height: 70vh;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    .features-container{
+        width: 90%;
+    }
+    .text h4{
+        font-size: 30px;
+        padding-bottom: 5px;
+    }
+    .text p {
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+    span{
+        font-size: 14px;
+    }
+    .text button{
+        padding: 10px 15px;
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+    .image img{
+        width: 100%;
+    }
+    #Our-Gallery h4{
+        font-size: 30px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .gallery-container{
+        width: 90%;
+    }
+    .Gallery-image{
+        margin-bottom: 50px;
+        grid-template-columns: auto auto auto;
+    }
+    .Gallery-image img{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .comment{
+        height: 50vh;
+        margin-bottom: 20px;
+    }
+    .comment-container{
+        width: 90%;
+        padding-top: 30px;
+        
+    }
+    .Contact-us{
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+    .Contact-us h3{
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+    .contact-container{
+        width: 90%;
+    }
+    .OUR-ADDRESS h4 {
+        font-size: 22px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+    .OUR-ADDRESS p {
+        font-size: 16px;
+    }
+    .Address h5 {
+        font-size: 20px;
+        padding-top: 15px;
+        padding-left: 17px;
+    }
+    #Html-form{
+        width: 55%;
+    }
+    .banner-4{
+        height: 45vh;
+    }
+    .banner-4-container {
+        width: 90%;
+        padding-top: 10px;
+    }
+    .banner-4-container h4 {
+        font-size: 30px;
+        padding-top: 35px;
+    }
+    .banner-4-container p {
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+    .footer-container {
+        width: 90%;
+        grid-template-columns: auto auto auto;
+    }
+    .footer-logo{
+        font-size: 30px;
+    }
+    .footer-box p{
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    .footer-menu {
+        font-size: 14px;
+    }
+    .footer-menu li {
+        margin-bottom: 10px;
+    }
+}
