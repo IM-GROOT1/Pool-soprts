@@ -1,4 +1,4 @@
-@media (max-width:480px){
+@media ( max-width:480px){
 
     .toggle{
         line-height: 60px;
@@ -42,7 +42,7 @@
         line-height: 60px;
     }
     .header_banner_wrap {
-        width: 500px;
+        width: 90%;
         padding-top: 0px;
     }
     .header_banner_wrap h2{
@@ -79,8 +79,9 @@
     }
     .banner-2-wrap{
         font-size: 30px;
-        width: 480px;
+        width: 90%;
     }
+    
     .banner-2-button{
         padding: 10px 10px;
     }
@@ -640,7 +641,7 @@
         padding: 10px 60px;
     }
     .Some-Features{
-        height: 70vh;
+        height: 65vh;
         margin-top: 0px;
         margin-bottom: 30px;
     }
